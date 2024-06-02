@@ -373,10 +373,15 @@ export const RoleOverview = () => {
     [airtableData]);
 
   const compData = useMemo(() => {
-    if (!airtableData) { return [] };
-    if (!search) { return airtableData.map((dataPoint: any) => { return { item: dataPoint } }) }
+    if (!Array.isArray(airtableData)) { return [] };
+    if (!search) {
+      return airtableData.map((dataPoint: any) => {
+        return { item: dataPoint };
+      });
+    }
     return fuse.search(search);
   }, [airtableData, fuse, search]);
+
 
 
   const handleSearch = (e: any) => {

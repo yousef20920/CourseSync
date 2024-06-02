@@ -99,7 +99,7 @@ const About: NextPage = () => {
               </ListItem>
             </UnorderedList>
             <Text fontStyle='italic'>
-              Psst - If you are in HR or People Ops and would like to get involved with this effort, {`we'd`} love to hear from you. Please send us an <a href="mailto:blockchaingirls@gmail.com" target="_blank" rel="noreferrer">email</a> with “Know Your Worth in Web3” in the subject line.
+              Psst - If you are in HR or People Ops and would like to get involved with this effort, {`we'd`} love to hear from you. Please send us an <a href="mailto:blockchaingirls@gmail.com" target="_blank" rel="noreferrer">email</a> with “CourseSync” in the subject line.
             </Text>
             <Text as="h2">
               Acknowledgements
